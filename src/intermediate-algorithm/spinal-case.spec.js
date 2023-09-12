@@ -1,3 +1,4 @@
+import should from 'should'
 import { spinalCase } from './spinal-case.js'
 
 describe('Test spinal case', () => {
