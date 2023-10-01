@@ -4,7 +4,7 @@
  * transform the array into a zig zag sequence by permuting the array elements.
  * A sequence will be called a zig zag sequence
  * if the first  elements in the sequence are in increasing order
- * and the last  elements are in decreasing order, where .
+ * and the last  elements are in decreasing order
  */
 export default function zigZagFunction (arr) {
   arr.sort((a, b) => a - b)
